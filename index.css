@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+#grid {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin-left: 700px;
+    user-select: none;
+    text-align: center;
+    line-height: 25px;
+    
+}
+
